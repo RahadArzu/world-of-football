@@ -1,0 +1,123 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Common styles or utilities */
+body{
+    background-color: #202020;
+    font-family: 'Poppins', sans-serif;
+    width: 1600px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+aside{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 130px;
+    margin-left: 140px;
+    float: left;
+    padding: 30px;
+    border-radius: 10px;
+}
+footer{
+    background-color: #000000;
+    margin: auto;
+}
+
+/* Banner */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 1320px;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 30px;
+}
+.banner-info{
+    padding: 75px 0 75px;
+    margin-left: -70px;
+}
+.banner h1{
+    color: blue;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 80px;
+}
+.button{
+    color: #ffffff;
+    background-color: blue;
+    padding: 16px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#watch-live {		
+	position: relative;	
+	text-transform: uppercase;
+	transition: all 500ms;	
+}
+
+.fa-angles-right{
+    margin-left: 15px;
+}
+.player{
+    width: 37.5%;
+    height: 29.375em;
+    margin: -153px 200px 0 -300px;
+}
+
+/* Aside Bar */
+.btn-gap{
+    margin-bottom: 30px;
+    color: #ffffff;
+    background-color: #202020;
+}
+
+/* Main */
+.matches{
+    width: 1030px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin: 130px 0 130px 0;
+    padding-left: 24px;
+}
+.match{
+    border: 1px solid #464646;
+    border-radius: 10px;
+    padding: 53px 30px;
+}
+.match h3{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.match p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+}
+.flag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flag h3{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 20px 0 20px;
+}

@@ -63,7 +63,9 @@ footer{
 	text-transform: uppercase;
 	transition: all 500ms;	
 }
-
+.upcoming-blog{
+    padding: 16px 80px;
+}
 .fa-angles-right{
     margin-left: 15px;
 }
@@ -120,4 +122,36 @@ footer{
     font-size: 16px;
     font-weight: 700;
     margin: 0 20px 0 20px;
+}
+
+/* Footer */
+footer h1{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 130px 0 100px 0;
+    text-align: center;
+}
+.lable{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    color: #ffffff;
+    margin: 0 351px;
+    padding-bottom: 30px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.fa-brands{
+    color: #ffffff;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+.fa-facebook{
+    margin-right: 30px;
+}
+.fa-twitter{
+    margin-right: 30px;
 }

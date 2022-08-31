@@ -63,7 +63,11 @@ footer{
 	text-transform: uppercase;
 	transition: all 500ms;	
 }
+#upcoming-match{
+    background-color: blue;
+}
 .upcoming-blog{
+    background-color: #202020;
     padding: 16px 80px;
 }
 .fa-angles-right{
